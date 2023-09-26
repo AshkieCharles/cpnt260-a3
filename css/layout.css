@@ -1,27 +1,21 @@
 header {
-  background-image: url(https://picsum.photos/200/300) ;
-  height: 100vh;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-}
-
-button {
-  border: none;
-  border-radius: 60px;
-  background-color: aqua;
   display: flex;
   justify-content: center;
+  height: 70vh;
+  align-items: center;
+  background-image: url(/images/patrick-axe.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
 }
 
-button:hover {
-  background-color: darkkhaki;
-
-}
-
-.action-card {
+h1 {
   display: flex;
-  align-content: center;
-  padding-left: 10ch;
+  height: 100vh;
+  align-items:center;
+  margin-right: 20rem;
+  font-size: clamp(64px, 10vw, 130px);
+  padding-left: 40vh;
 }
