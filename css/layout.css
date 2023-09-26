@@ -1,11 +1,20 @@
 header {
-  background-image: url() ;
+  background-image: url(https://picsum.photos/200/300) ;
+  padding: 30ch;
+  background-position-x: 9%;
+  background-position-y: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 button {
   border: none;
   border-radius: 60px;
   background-color: aqua;
+  display: flex;
+  justify-content: center;
 }
 
 button:hover {
