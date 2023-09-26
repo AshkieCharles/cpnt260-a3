@@ -1,12 +1,10 @@
 header {
   background-image: url(https://picsum.photos/200/300) ;
-  padding: 30ch;
-  background-position-x: 9%;
-  background-position-y: 50%;
-  background-attachment: fixed;
-  background-size: cover;
+  height: 100vh;
   background-repeat: no-repeat;
-  background-position: center center;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
 button {
@@ -22,6 +20,8 @@ button:hover {
 
 }
 
-button, button:visited {
-
+.action-card {
+  display: flex;
+  align-content: center;
+  padding-left: 10ch;
 }
