@@ -21,7 +21,7 @@ p {
 .hero-section {
   width: 100%;
   height: 100vh;
-  background-image: url(/images/patrick-axe.jpeg);
+  background-image: url(../images/patrick-axe.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
