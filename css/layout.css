@@ -29,13 +29,15 @@ p {
 }
 
 .action-card {
-  width: 90%;
-  height: 100vh;
-  max-width: 30rem;
+  width: 60%;
+  height: 75vh;
+  max-width: 25rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  float: left;
+  margin-left: 10rem;
+  margin-top: 5rem;
 
 }
 
@@ -78,3 +80,21 @@ a:active {
 button:active {
   background-color: hsl(0, 0%, 3%);
 }
+
+
+.action-card {
+  
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #07F8E7ff;
+  
+  text-align: justify;
+  
+  display: flex;
+  
+  background-color:#133E86ff;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.5;
+}
+
