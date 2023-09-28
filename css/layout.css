@@ -29,7 +29,7 @@ p {
 }
 
 .action-card {
-  width: 60%;
+  width: 50%;
   height: 75vh;
   max-width: 25rem;
   margin: 0 auto;
@@ -42,45 +42,16 @@ p {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
-button {
-  
-  border-radius: 60px;
-  color: black;
-  padding: 10px ;
-  box-shadow: 4px 4px 0px;
+h2 {
+  font-size: 1.5;
+  padding-bottom: 2rem;
+  text-align: center;
 }
-
-
-
-a, a:visited {
-  color: blue;
-}
-
-button:hover {
-  background-color: yellow;
-  color: violet;
-  box-shadow: 4px 4px 0px;
-  color:rgb(16, 25, 26)
-}
-a:active {
-  color: red;
-}
-
-a:hover {
-  color: rgb(9, 255, 0);
-}
-
-a:active {
-  color: red;
-}
-
-button:active {
-  background-color: hsl(0, 0%, 3%);
-}
-
 
 .action-card {
   
@@ -96,5 +67,5 @@ button:active {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: 0.5;
-}
+}  
 
