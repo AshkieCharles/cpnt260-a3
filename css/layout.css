@@ -64,6 +64,8 @@ h2 {
 
 .description p{
   background-color: rgb(187, 159, 159);
+  padding:1rem;
+  padding-bottom: 0;
 }
 
 .card-lore {
@@ -115,7 +117,7 @@ h2 {
 }
 
 .about-card {
-  margin-right: 3rem;
+  margin-right: min(3rem);
 }
 
 .click {
@@ -145,7 +147,7 @@ box-shadow: 0 0 5px rgb(41, 57, 237),
   }
   .about-card {
     margin-left: min(1rem);
-    margin-right: max(2rem);
+    margin-right: min(1rem);
   }
   .nav-bar-list{
     display: none;
