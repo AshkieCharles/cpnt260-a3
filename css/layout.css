@@ -22,7 +22,7 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: url(../images/car.jpg);
+  background-image: url(../images/car1.jpg);
   background:linear-gradient(rgba(0,0,0,0.50));
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,30 +34,20 @@ body {
   width: 90%;
   height: 100%;
   max-width: 15rem;
-  margin: 0 auto;
-  display: flex;
+  margin-left: 10rem;
+  display:flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.click {
-  display:block;
-  margin: auto;
-  margin-top: 15px;
-  background-color: black;
-  border: solid;
-  border-color: purple;
-}
 a{
   padding: 20px;
   margin: auto;
-  color: white;
+  color: rgb(41, 57, 237);
 }
 
 h1 {
-  font-size: 2.7rem;
-  
+  font-size: 2rem;
   margin-bottom: 1rem;
   text-align:center;
   background: linear-gradient(#3d9cdb, #af2ede);
@@ -99,7 +89,7 @@ h2 {
 }
 
 .nav-bar-list li a {
-  color:  hsla(126, 100%, 85%, 1);
+  color:  rgb(215, 37, 176);
   text-decoration: none;
   font-size: 25px;
   font-weight: 300;
@@ -113,7 +103,7 @@ h2 {
   border: 1px solid transparent;
 }
 .nav-bar-list li:hover{
-  border-color: red;
+  border-color: rgb(109, 193, 242);
 }
 
 
@@ -122,4 +112,43 @@ h2 {
   text-align: center;
   color: #3d9cdb;
   font-size: 30px;
+}
+
+.about-card {
+  margin-right: 3rem;
+}
+
+.click {
+  display:block;
+  margin: auto;
+  background-color: black;
+  margin-top: 1rem;
+  
+}
+
+/*Code was taken from (https://youtube.com/shorts/FYIX7Kc5JRo?si=_TCQGKxHy888RZyk)*/
+
+.click {
+box-shadow: 0 0 5px rgb(41, 57, 237),
+0 0 25px rgb(41, 57, 237);
+}
+.click:hover {
+box-shadow: 0 0 5px rgb(41, 57, 237),
+0 0 25px rgb(41, 57, 237), 0 0 50px rgb(41, 57, 237),
+0 0 100px rgb(41, 57, 237), 0 0 200px rgb(41, 57, 237);
+}
+
+
+@media (orientation: portrait) and (max-width: 700px ){
+  .action-card {
+    margin:auto;
+  }
+  .about-card {
+    margin-left: min(1rem);
+    margin-right: max(2rem);
+  }
+  .nav-bar-list{
+    display: none;
+  }
+
 }
