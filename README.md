@@ -9,4 +9,7 @@ Ashkie Esperanza
 ## GH Pages site:
 ## Attributions :
   ### Images
-    - [Patrick](https://i.kym-cdn.com/entries/icons/original/000/008/301/Patrick_Bateman_With_an_Axe_Banner.jpg)
+    - [Neon Background](https://rare-gallery.com/resol/1920x1080/588672-synthwave-cars.jpg)
+
+  ### Code Attributions
+    - [Button Highlight](https://youtube.com/shorts/FYIX7Kc5JRo?si=_TCQGKxHy888RZyk)
