@@ -141,7 +141,7 @@ box-shadow: 0 0 5px rgb(41, 57, 237),
 }
 
 
-@media (orientation: portrait) and (max-width: 700px ){
+@media (orientation: portrait){
   .action-card {
     margin:auto;
   }
