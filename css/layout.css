@@ -10,6 +10,7 @@
 p {
   font-family: 'Teko', sans-serif;
   font-size: large;
+  text-align: center;
 }
 
 * {
@@ -63,9 +64,14 @@ h2 {
   
   display: flex;
   
-  background-color:#133E86ff;
+  background-color:hsla(50, 100%, 100%, 0.5);
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: 0.5;
 }  
 
+button {
+  display: block;
+  text-align: center;
+
+}
