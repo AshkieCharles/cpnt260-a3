@@ -148,7 +148,7 @@ box-shadow: 0 0 5px rgb(41, 57, 237),
   .about-card {
     margin-left: min(1rem);
     margin-right: min(1rem);
-    margin-bottom: max(8rem);
+    margin-bottom: min(8rem);
   }
   .nav-bar-list{
     display: none;
