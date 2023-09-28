@@ -110,7 +110,12 @@ h2 {
 .nav-bar-list li {
   display: inline-flex;
   list-style: none;
+  border: 1px solid transparent;
 }
+.nav-bar-list li:hover{
+  border-color: red;
+}
+
 
 .logo {
   font-family: 'Dela Gothic One', cursive;
