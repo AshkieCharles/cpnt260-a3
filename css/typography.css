@@ -49,6 +49,6 @@ h2 {
 
 @media (orientation: portrait){
   * {
-    line-height: max(3ch);
+    line-height: max(2ch);
   }
 }

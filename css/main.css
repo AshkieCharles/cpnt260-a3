@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   background-image: url(../images/car1.jpg);
-  background:linear-gradient(rgba(0,0,0,0.50));
+  background-color:rgba(223, 51, 51, 0.5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -99,6 +99,42 @@ box-shadow: 0 0 5px rgb(41, 57, 237),
 }
 
 
+.toggle {
+  visibility: hidden;
+}
+
+.menu {
+  visibility: hidden;
+}
+
+.toggle::before,
+.toggle::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  background-color: aliceblue;
+  border-radius: 12px;
+  transition: 0.2s;
+
+}
+
+.toggle::before{
+  top: 15px;
+  width: 40px;
+  right: 1rem;
+}
+
+.toggle::after {
+  top: 40px;
+  width: 40px;
+  right: 1rem;
+}
+
+
+
+
+
 @media (orientation: portrait){
   .action-card {
     margin:auto;
@@ -110,6 +146,23 @@ box-shadow: 0 0 5px rgb(41, 57, 237),
   }
   .nav-bar-list{
     display: none;
-  }
 
+  }
+  .menu{
+    width: 30px;
+    height: 5px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.2s;
+    position: relative;
+
+    
+  }
+  .toggle {
+    visibility: visible;
+  
+  }
 }
+
