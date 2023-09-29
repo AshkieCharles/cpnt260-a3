@@ -10,8 +10,9 @@ Ashkie Esperanza
   [Site](https://ashkiecharles.github.io/cpnt260-a3/)
 ## Attributions :
   ### Images
-    - [Neon Background](https://rare-gallery.com/resol/1920x1080/588672-synthwave-cars.jpg)
+   [Background](https://rare-gallery.com/resol/1920x1080/588672-synthwave-cars.jpg)
 
   ### Code Attributions
-    - [Button Highlight](https://youtube.com/shorts/FYIX7Kc5JRo?si=_TCQGKxHy888RZyk)
+  [Button](https://youtube.com/shorts/FYIX7Kc5JRo?si=_TCQGKxHy888RZyk)
+   
   
